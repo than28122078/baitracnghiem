@@ -37,6 +37,3 @@ def submit_quiz():
 
     # Trả về kết quả dưới dạng JSON
     return jsonify({"score": score, "total": len(quiz_data)})
-
-if __name__ == '__main__':
-    app.run(debug=True)
